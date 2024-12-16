@@ -1,3 +1,7 @@
+// Декор
+const tab = "\t";
+const newLine = "\n";
+
 // Функция задержки
 const delay = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 
@@ -22,10 +26,6 @@ abstract class Player {
 
 // Компьютер, который загадывает число
 class SecretKeeper extends Player {
-  constructor(readonly name: string) {
-    super(name);  
-  }
-
   makeMove(lower: number, upper: number) {
     return Math.floor(Math.random() * (upper - lower)) + lower;
   }
@@ -81,7 +81,6 @@ class NumberGuessingGame {
     let currentLower = this.lowerBound;
     let currentUpper = this.upperBound;
     const secretNumber = this.secretKeeper.makeMove(this.lowerBound, this.upperBound);
-    const newLine = "\n\n";
 
     await this.showMessage(`${this.secretKeeper.name} загадал число: ${secretNumber}.${newLine}`);
 
@@ -89,7 +88,7 @@ class NumberGuessingGame {
       attempts++;
       const guess = this.guesser.makeMove(currentLower, currentUpper);
       await this.showMessage(
-        `Попытка ${attempts}, диапазон чисел [${currentLower}, ${currentUpper}].`,
+        `${tab}Попытка ${attempts}, диапазон чисел [${currentLower}, ${currentUpper}].`,
       );
       await this.showMessage(`${this.guesser.name}: Пробую число ${guess}.`);
 

@@ -2,3 +2,4 @@
 - [Команды Git](https://github.com/X-creator/sit/blob/main/1/git-commands.md)
 - [Мини-игра: Секретное число](https://github.com/X-creator/sit/tree/main/1/secret-number)
 - [Правильное именование](https://github.com/X-creator/sit/blob/main/1/correct-naming.js)
+- [Массивы и методы по работе с ними](https://github.com/X-creator/sit/blob/main/1/array-methods)

@@ -1,0 +1,11 @@
+{
+  "name": "array-methods",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --experimental-strip-types --experimental-transform-types --no-warnings src/tests/**.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}

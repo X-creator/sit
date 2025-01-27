@@ -7,3 +7,4 @@
 - [Повторяем объекты](https://github.com/X-creator/sit/tree/main/1/objects)
 - [Работа со строками](https://github.com/X-creator/sit/tree/main/1/strings)
 - [Функциональные выражения](https://github.com/X-creator/sit/tree/main/1/function-expression)
+- [Стрелочные функции и углубление в массивы](https://github.com/X-creator/sit/tree/main/1/arrow-functions)

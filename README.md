@@ -5,3 +5,4 @@
 - [Правильное именование](https://github.com/X-creator/sit/blob/main/1/correct-naming.js)
 - [Массивы и методы по работе с ними](https://github.com/X-creator/sit/blob/main/1/array-methods)
 - [Повторяем объекты](https://github.com/X-creator/sit/tree/main/1/objects)
+- [Работа со строками](https://github.com/X-creator/sit/tree/main/1/strings)
